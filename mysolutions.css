@@ -93,3 +93,18 @@
     filter: grayscale(1) sepia(1);
     transform: scale(1.5);
 }
+
+/* Esercizio 10 */
+
+.ex-10-icon {
+    animation: rotates 2s linear infinite normal;
+}
+
+@keyframes rotates{
+    from {
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
